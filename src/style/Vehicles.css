@@ -1,0 +1,81 @@
+.vehiclesDiv {
+    position: absolute;
+    width: 50%;
+    overflow-y: auto;
+    height: 400px;
+}
+.split {
+    position: absolute;
+    height: 100%;
+    background-color: lightgray;
+    width: 1px;
+    top:0%;
+    left:55%;
+}
+#vehicleTitle {
+    position: relative;
+    left: 2%;
+    top:0%;
+}
+.addVehicle {
+    position: absolute;
+    left:60%;
+    width: 40%;
+    height: 100%;
+    top:0%;
+}
+.confirmButton {
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: 'Space Mono';
+}
+.confirmButton:hover {
+    color: white;
+}
+#addVehicleButton {
+    position: absolute;
+    top:60%;
+    left:40%;
+    width: 100px;
+    height: 50px;
+}
+.selectDropDown {
+    position: absolute;
+    top:0%;
+    left:15%;
+    width: 50%;
+}
+#vehicleTypeLabelAdd {
+    position: absolute;
+    top:22%;
+}
+#vehicleModelLabelAdd {
+    position: absolute;
+    top:35%;
+}
+.inputModel {
+    background-color: orange;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    color: black;
+    font-family: 'Roboto Mono';
+    padding-left: 40px;
+}
+#model {
+    position: absolute;
+    top:36%;
+    left:15%;
+}
+#addVehicleTypeLabel {
+    position: absolute;
+    top:22%;
+}
+#type {
+    position: absolute;
+    left:15%;
+}

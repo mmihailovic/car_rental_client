@@ -1,0 +1,20 @@
+#fromLabel {
+    position: absolute;
+    top:70%;
+    left:10%;
+}
+#fromLabelData {
+    position: absolute;
+    top:70%;
+    left:20%;
+}
+#toLabel {
+    position: absolute;
+    top:70%;
+    left:40%;
+}
+#toLabelData {
+    position: absolute;
+    top:70%;
+    left:50%;
+}

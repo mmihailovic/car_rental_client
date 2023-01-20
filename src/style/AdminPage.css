@@ -1,0 +1,23 @@
+.deleteButton {
+    color: black;
+    border: none;
+    display: none;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Space Mono';
+    font-size: 1em;
+    border-color: black;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.deleteButton:hover {
+    color: gray;
+    border: none;
+    font-family: 'Space Mono';
+    font-size: 1em;
+    border-color: gray;
+    border:2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}

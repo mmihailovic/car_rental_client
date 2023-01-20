@@ -1,0 +1,15 @@
+.menuBar {
+    background-color: lightgray;
+    /* position: relative; */
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li {
+    margin-right: 100px;
+}
+ul li:hover {
+    color: orange;
+    cursor: pointer;
+}

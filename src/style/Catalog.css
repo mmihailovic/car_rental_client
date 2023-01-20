@@ -1,0 +1,23 @@
+#companyLabel {
+    position:absolute;
+    left: 40%;
+    top:12%;
+}
+
+#companyLabelData {
+    position:absolute;
+    left: 60%;
+    top:12%;
+}
+
+#priceLabel {
+    position:absolute;
+    left: 40%;
+    top:42%;
+}
+
+#priceLabelData {
+    position:absolute;
+    left: 60%;
+    top:42%;
+}
