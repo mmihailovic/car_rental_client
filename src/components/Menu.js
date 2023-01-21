@@ -17,7 +17,7 @@ const Menu = () => {
   return (
     <div className='menuBar'>
         <ul>
-            <li onClick={clickCompany}>Company</li>
+            {/* <li onClick={clickCompany}>Company</li> */}
             <li onClick={clickVehicle}>Vehicle</li>
             <li onClick={clickVehicleType}>Vehicle Type</li>
         </ul>

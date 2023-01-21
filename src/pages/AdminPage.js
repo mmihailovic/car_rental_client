@@ -61,7 +61,7 @@ const AdminPage = () => {
         <Menu></Menu>
         <Routes>
             <Route path="/vehicle" element={<Vehicles vehicles={vehicles} func={addVehicle}></Vehicles>}></Route>
-            <Route path="/company" element={<><Companies companies={companies}func={setCompany}></Companies></>}></Route>
+            {/* <Route path="/company" element={<><Companies companies={companies}func={setCompany}></Companies></>}></Route> */}
             <Route path="/vehicletype" element={<VehicleTypes vehicleTypes={vehicleTypes} func={addVehicleType}/>}></Route>
         </Routes>
     </div>
